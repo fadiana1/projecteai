@@ -1,0 +1,341 @@
+ body {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 500;
+     background-color: #F1F0E8;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ .breadcrumb {
+     margin-top: 5px;
+     margin-left: 15px;
+ }
+
+ .breadcrumb .breadcrumb-item a {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+     color: #4a7277;
+ }
+
+ .breadcrumb .active {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     color: #283c63;
+ }
+
+ .btn-back {
+     border: none;
+     background-color: #5f8da3;
+     height: 35px;
+     border-radius: 10px;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+ }
+
+ .btn-back:hover {
+     border: none;
+     background-color: #283c63;
+     height: 35px;
+     border-radius: 10px;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+ }
+
+ .btn-beli {
+     border: none;
+     background-color: #5f8da3;
+     height: 50px;
+     border-radius: 10px;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+     padding-top: 13px;
+ }
+
+ .btn-beli:hover {
+     background-color: #283c63;
+ }
+
+ .navbar {
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+
+ .navbar .navbar-nav .nav-link {
+     margin-right: 30px;
+ }
+
+ .navbar .btn-auth {
+     width: 150px;
+     height: 50px;
+     padding-top: 12px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+     background-color: #EEE0C9;
+     border-radius: 15px;
+     border: none;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+     color: #283c63;
+ }
+
+ header {
+     margin-top: 10px;
+     margin-bottom: 20px;
+ }
+
+ header .carousel .carousel-item img {
+     border-radius: 15px;
+     height: 350px;
+ }
+
+ header .carousel .carousel-control-next {
+     background-color: #fff;
+     height: 50px;
+     width: 50px;
+     margin-top: 150px;
+     margin-right: 50px;
+     border-radius: 50%;
+     color: #000;
+ }
+
+ header .carousel .carousel-control-prev {
+     background-color: #fff;
+     height: 50px;
+     width: 50px;
+     margin-top: 150px;
+     margin-left: 50px;
+     border-radius: 50%;
+     color: #000;
+ }
+
+ header .card {
+     background-color: #EEE0C9;
+     border: none;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+     border-radius: 15px;
+ }
+
+ main {
+     margin-top: 50px;
+ }
+
+ .awal {
+     margin-bottom: 80px;
+ }
+
+ main .title {
+     text-align: center;
+ }
+
+ main .title img {
+     width: 250px;
+ }
+
+ main .title h1 {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     font-size: 50px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     color: #5f8da3;
+ }
+
+ main .title p {
+     width: 700px;
+     margin: 0 auto;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+     font-size: 20px;
+     color: #4a7277;
+ }
+
+ main .welcome {
+     text-align: center;
+ }
+
+ main .welcome img {
+     width: 250px;
+ }
+
+ main .welcome h1 {
+     font-family: 'Russo One', sans-serif;
+     font-size: 50px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     color: #5f8da3;
+ }
+
+ main .welcome p {
+     width: 700px;
+     margin: 0 auto;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+     font-size: 20px;
+     color: #4a7277;
+ }
+
+ main .pilihan {
+     margin-top: 50px;
+ }
+
+ main .pilihan .card {
+     padding: 30px;
+     background-color: #EEE0C9;
+     border: none;
+     height: 220px;
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+     border-radius: 15px;
+     text-align: center;
+ }
+
+ main .pilihan .card:hover {
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+ main .pilihan .card h2 {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     color: #283c63;
+     font-size: 20px;
+ }
+
+ main .pilihan .card h3 {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     color: #283c63;
+     font-size: 35px;
+ }
+
+ main .pilihan .card a {
+     background-color: transparent;
+     border-radius: 15px;
+     height: 50px;
+     padding-top: 10px;
+     font-weight: 600;
+     color: #283c63;
+     border: 3px #283c63 solid;
+     margin-top: 29px;
+ }
+
+ @media (max-width: 600px) {
+     main .title img {
+         width: 250px;
+     }
+
+     main .title h1 {
+         font-size: 70px;
+     }
+
+     main .title p {
+         width: 80%;
+         font-size: 20px;
+         margin: 0 auto;
+     }
+
+     main .welcome p {
+         width: 80%;
+         font-size: 20px;
+         margin: 0 auto;
+     }
+
+     main .pilihan {
+         margin-top: 10px;
+         margin-bottom: 80px;
+     }
+
+     main .pilihan .card {
+         margin-top: 30px;
+     }
+ }
+
+ main .product {
+     margin-top: 50px;
+     margin-bottom: 100px;
+ }
+
+ main .product .card {
+     padding: 20px;
+     background-color: #EEE0C9;
+     border: none;
+     /* height: 220px; */
+     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+     border-radius: 15px;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ main .product .card:hover {
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+ main .product .card img {
+     border-radius: 15px;
+     max-width: 100%;
+     height: 200px;
+     margin-bottom: 20px;
+     object-fit: cover;
+     object-position: center;
+ }
+
+ main .product .card h3 {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     color: #283c63;
+     font-size: 30px;
+ }
+
+ main .product .card .detail {
+     margin-top: 10px;
+     margin-bottom: 0px;
+ }
+
+ main .product .card .detail p {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+     margin-bottom: 0px;
+     color: #283c63;
+ }
+
+ footer {
+     background-color: #EEE0C9;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     height: 100px;
+     width: 60%;
+     margin: 0 auto;
+     border-radius: 20px;
+     position: relative;
+     bottom: 50px;
+     padding: 20px;
+ }
+
+ footer .cr {
+     margin-top: 7px;
+ }
+
+ footer .logo {
+     margin-top: 17px;
+ }
+
+ footer .cr p {
+     margin-bottom: 0px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+ }
+
+ @media (max-width: 600px) {
+     footer {
+         width: 90%;
+     }
+
+     footer .cr .fw-bold {
+         display: none;
+     }
+ }
+
+ main .galery .card img {
+     border-radius: 15px;
+     max-width: 100%;
+     height: 200px;
+     object-fit: cover;
+     object-position: center;
+ }
